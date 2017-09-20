@@ -1,0 +1,9 @@
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testif\testif\bin\Debug\testif.exe.config
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testif\testif\bin\Debug\testif.exe
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testif\testif\bin\Debug\testif.pdb
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testif\testif\obj\Debug\testif.csprojResolveAssemblyReference.cache
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testif\testif\obj\Debug\testif.exe
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testif\testif\obj\Debug\testif.pdb
+C:\Users\manish.kumar\Desktop\c# assignments\testif\testif\bin\Debug\testif.exe.config
+C:\Users\manish.kumar\Desktop\c# assignments\testif\testif\obj\Debug\testif.exe
+C:\Users\manish.kumar\Desktop\c# assignments\testif\testif\obj\Debug\testif.pdb
