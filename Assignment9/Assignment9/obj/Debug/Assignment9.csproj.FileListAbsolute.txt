@@ -1,6 +1,0 @@
-c:\users\manish.kumar\documents\visual studio 2015\Projects\Assignment9\Assignment9\bin\Debug\Assignment9.exe.config
-c:\users\manish.kumar\documents\visual studio 2015\Projects\Assignment9\Assignment9\bin\Debug\Assignment9.exe
-c:\users\manish.kumar\documents\visual studio 2015\Projects\Assignment9\Assignment9\bin\Debug\Assignment9.pdb
-c:\users\manish.kumar\documents\visual studio 2015\Projects\Assignment9\Assignment9\obj\Debug\Assignment9.csprojResolveAssemblyReference.cache
-c:\users\manish.kumar\documents\visual studio 2015\Projects\Assignment9\Assignment9\obj\Debug\Assignment9.exe
-c:\users\manish.kumar\documents\visual studio 2015\Projects\Assignment9\Assignment9\obj\Debug\Assignment9.pdb
