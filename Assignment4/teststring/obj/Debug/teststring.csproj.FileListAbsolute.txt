@@ -1,0 +1,12 @@
+c:\users\manish.kumar\documents\visual studio 2015\Projects\teststring\teststring\bin\Debug\teststring.exe.config
+c:\users\manish.kumar\documents\visual studio 2015\Projects\teststring\teststring\bin\Debug\teststring.exe
+c:\users\manish.kumar\documents\visual studio 2015\Projects\teststring\teststring\bin\Debug\teststring.pdb
+c:\users\manish.kumar\documents\visual studio 2015\Projects\teststring\teststring\obj\Debug\teststring.csprojResolveAssemblyReference.cache
+c:\users\manish.kumar\documents\visual studio 2015\Projects\teststring\teststring\obj\Debug\teststring.exe
+c:\users\manish.kumar\documents\visual studio 2015\Projects\teststring\teststring\obj\Debug\teststring.pdb
+C:\Users\manish.kumar\Desktop\c# assignments\teststring\teststring\bin\Debug\teststring.exe.config
+C:\Users\manish.kumar\Desktop\c# assignments\teststring\teststring\obj\Debug\teststring.exe
+C:\Users\manish.kumar\Desktop\c# assignments\teststring\teststring\obj\Debug\teststring.pdb
+C:\Users\manish.kumar\Desktop\c# assignments\Assignment4\teststring\bin\Debug\teststring.exe.config
+C:\Users\manish.kumar\Desktop\c# assignments\Assignment4\teststring\obj\Debug\teststring.exe
+C:\Users\manish.kumar\Desktop\c# assignments\Assignment4\teststring\obj\Debug\teststring.pdb

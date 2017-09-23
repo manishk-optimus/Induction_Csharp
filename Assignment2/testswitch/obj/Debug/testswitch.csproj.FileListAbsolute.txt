@@ -1,0 +1,12 @@
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testswitch\testswitch\bin\Debug\testswitch.exe.config
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testswitch\testswitch\bin\Debug\testswitch.exe
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testswitch\testswitch\bin\Debug\testswitch.pdb
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testswitch\testswitch\obj\Debug\testswitch.csprojResolveAssemblyReference.cache
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testswitch\testswitch\obj\Debug\testswitch.exe
+c:\users\manish.kumar\documents\visual studio 2015\Projects\testswitch\testswitch\obj\Debug\testswitch.pdb
+C:\Users\manish.kumar\Desktop\c# assignments\testswitch\testswitch\bin\Debug\testswitch.exe.config
+C:\Users\manish.kumar\Desktop\c# assignments\testswitch\testswitch\obj\Debug\testswitch.exe
+C:\Users\manish.kumar\Desktop\c# assignments\testswitch\testswitch\obj\Debug\testswitch.pdb
+C:\Users\manish.kumar\Desktop\c# assignments\Assignment2\testswitch\bin\Debug\testswitch.exe.config
+C:\Users\manish.kumar\Desktop\c# assignments\Assignment2\testswitch\obj\Debug\testswitch.exe
+C:\Users\manish.kumar\Desktop\c# assignments\Assignment2\testswitch\obj\Debug\testswitch.pdb
