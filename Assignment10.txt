@@ -1,0 +1,10 @@
+
+Problem 1.
+
+   The code given will not work successfully because of the reason that the protected members are accesiblle only within
+   the class or in the derived classes.
+
+Problem 2.
+  
+   The code given will not work successfully because of the reason that the protected internal members are accessible
+   either in the namespae or the derived classes.

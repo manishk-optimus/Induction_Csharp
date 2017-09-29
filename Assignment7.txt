@@ -1,0 +1,3 @@
+The answer of the given Question will be option C
+
+because the static variable belong to the Class rather then the Object
