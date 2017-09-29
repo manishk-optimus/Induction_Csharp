@@ -4,3 +4,9 @@ c:\users\manish.kumar\documents\visual studio 2015\Projects\Assignment13\Assignm
 c:\users\manish.kumar\documents\visual studio 2015\Projects\Assignment13\Assignment13\obj\Debug\Assignment13.csprojResolveAssemblyReference.cache
 c:\users\manish.kumar\documents\visual studio 2015\Projects\Assignment13\Assignment13\obj\Debug\Assignment13.exe
 c:\users\manish.kumar\documents\visual studio 2015\Projects\Assignment13\Assignment13\obj\Debug\Assignment13.pdb
+C:\Users\manish.kumar\Desktop\Induction_Csharp\Assignment13\Assignment13\bin\Debug\Assignment13.exe.config
+C:\Users\manish.kumar\Desktop\Induction_Csharp\Assignment13\Assignment13\obj\Debug\Assignment13.exe
+C:\Users\manish.kumar\Desktop\Induction_Csharp\Assignment13\Assignment13\obj\Debug\Assignment13.pdb
+C:\Users\manish.kumar\Desktop\Induction_Csharp\Assignment13\Assignment13\bin\Debug\Assignment13.exe
+C:\Users\manish.kumar\Desktop\Induction_Csharp\Assignment13\Assignment13\bin\Debug\Assignment13.pdb
+C:\Users\manish.kumar\Desktop\Induction_Csharp\Assignment13\Assignment13\obj\Debug\Assignment13.csprojResolveAssemblyReference.cache

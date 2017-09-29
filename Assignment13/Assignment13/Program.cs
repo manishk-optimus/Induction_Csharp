@@ -1,51 +1,45 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Collections;
 
 public class Vehicle
 {
-    public string make { get; set; }
-    public int cost { get; set; }
-    public string model { get; set; }
+    public string Make { get; set; }
+    public int Cost { get; set; }
+    public string Model { get; set; }
 
-    public Vehicle()
+    public Vehicle(string make,string model,int cost)
     {
-        make = "none";
-        cost = 0000;
-        model = "none";
+        Make = make;
+        Cost = cost;
+        Model = model;
     }
     public override string ToString()
     {
-        return "menufacturer=" + make + "  " + "model_no=" + model + " " + "cost=" + cost;
+        return "menufacturer=" + Make + "  " + "model_no=" + Model + " " + "cost=" + Cost;
     }
 
 }
 public class VehicleCollection : IEnumerable
 {
     public ArrayList VehicleList = new ArrayList();
-    public void data()
+    public void Data()
     {
-        VehicleList.Add(new Vehicle() { make = "mahindra", model = "Centuro 4567", cost = 56200 });
+        VehicleList.Add(new Vehicle("mahindra", "Centuro 4567", 56200));
 
-        VehicleList.Add(new Vehicle() { make = "toyota", model = "DC323", cost = 82200 });
+        VehicleList.Add(new Vehicle("toyota", "DC323", 82200));
 
-        VehicleList.Add(new Vehicle() { make = "honda", model = "GHT678", cost = 65200 });
+        VehicleList.Add(new Vehicle("honda", "GHT678", 65200));
 
-        VehicleList.Add(new Vehicle() { make = "hero", model = "HL124", cost = 95621 });
+        VehicleList.Add(new Vehicle("hero", "HL124", 95621));
 
-        VehicleList.Add(new Vehicle() { make = "bajaj", model = "AQ5631", cost = 45213 });
+        VehicleList.Add(new Vehicle("bajaj", "AQ5631", 45213));
+     }
 
-       
-    }
     public IEnumerator GetEnumerator()
     {
         return VehicleList.GetEnumerator();
     }
 }
-
 
 namespace Assignment13
 {
@@ -54,12 +48,9 @@ namespace Assignment13
         static void Main(string[] args)
         {
             VehicleCollection obj = new VehicleCollection();
-            obj.data();
+            obj.Data();
 
-            //foreach (var var in obj)
-            //{
-            //    Console.WriteLine(var.ToString());
-            //}
+           
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("data at Index {0} is : \n {1}",i,obj.VehicleList[i].ToString());

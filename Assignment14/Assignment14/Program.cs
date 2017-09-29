@@ -1,26 +1,24 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Assignment14
 {
-    public class Vehicle : IComparable <Vehicle>,IEquatable<Vehicle>
+    public class Vehicle : IComparable<Vehicle>, IEquatable<Vehicle>
     {
-        public string type { get; set; }
-        public string make { get; set; }
-        public int cost { get; set; }
-        public string model { get; set; }
+
+        public string Make { get; set; }
+        public int Cost { get; set; }
+        public string Model { get; set; }
 
         public int CompareTo(Vehicle obj)
         {
             Vehicle other = (Vehicle)obj;
-            if (this.cost < other.cost)
+            if (this.Cost < other.Cost)
             {
                 return 1;
             }
-            else if (this.cost > other.cost)
+            else if (this.Cost > other.Cost)
             {
                 return -1;
             }
@@ -28,61 +26,100 @@ namespace Assignment14
                 return 0;
         }
 
-        public Vehicle()
-        {
-            make = "none";
-            cost = 0000;
-            model = "none";
-        }
         public override string ToString()
         {
-            return "menufacturer=" + make + "  " + "model_no=" + model + " " + "cost=" + cost;
+            return "menufacturer=" + Make + "  " + "model_no=" + Model + " " + "cost=" + Cost;
         }
 
         public bool Equals(Vehicle other)
         {
-            if (this.cost < other.cost)
+            if (this.Cost < other.Cost)
             {
                 return false;
             }
-            else if (this.cost > other.cost)
+            else if (this.Cost > other.Cost)
             {
                 return false;
             }
             else
                 return true;
         }
-    }
-    class car : Vehicle
-    {
 
-    }
-    class truck : Vehicle
-    {
-
-    }
-    class Program
-    {
-        static void Main(string[] args)
+        protected static IEnumerator GetEnumerator()
         {
-            car maruti = new car();
-            truck toyota = new truck();
+            throw new NotImplementedException();
+        }
+    }
+    class Car : Vehicle
+    {
+        public bool SUV { get; set; }
 
-            maruti.model = "JH2563";
-            maruti.cost = 32562;
+        public Car(bool suv, string make, string model, int cost)
+        {
+            SUV = suv;
+            Make = make;
+            Model = model;
+            Cost = cost;
+        }
+    }
+    class Truck : Vehicle
+    {
+        public bool PowerBrake { get; set; }
 
-            toyota.model = "AD5236";
-            toyota.cost = 32562;
+        public Truck(bool pb, string make, string model, int cost)
+        {
+            PowerBrake = pb;
+            Make = make;
+            Model = model;
+            Cost = cost;
+        }
+    }
+    public class VehicleCollection : Vehicle
+    {
+        public void Data()
+        {
+            List<Vehicle> vehicles = new List<Vehicle>();
+            Car datsun = new Car(true, "hyundai", "2017", 958000);
+            Car i20 = new Car(false, "Maruti", "2015", 656000);
+            Truck eicher = new Truck(true, "Eicher_India", "1613", 958000);
+            Truck maxo = new Truck(true, "Tata", "1613", 955000);
+            vehicles.Add(datsun);
+            vehicles.Add(i20);
+            vehicles.Add(eicher);
+            vehicles.Add(maxo);
 
-            if (toyota.Equals(maruti))
+            Console.WriteLine("Vehicle collection :");
+            foreach (var var in vehicles)
             {
-                Console.WriteLine("the cost of the car maruti and truck toyota is equal");
+                Console.WriteLine(var);
+            }
+            vehicles.Sort();
+            Console.WriteLine(" ");
+            Console.WriteLine("Vehicle collection after sorting according to the cost:");
+            foreach (var var in vehicles)
+            {
+                Console.WriteLine(var);
+            }
+            Console.WriteLine("");
+            if (datsun.Equals(eicher))
+            {
+                Console.WriteLine("The cost of car datsun and truck eicher is equal");
             }
             else
             {
-                Console.WriteLine("the costs are not equal");
+                Console.WriteLine("The cost of car datsun and truck eicher is not equal");
             }
             Console.ReadLine();
+        }
+    }
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            VehicleCollection obj = new VehicleCollection();
+            obj.Data();
+
         }
     }
 }

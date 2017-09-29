@@ -1,26 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Collections;
 
 namespace Assignment12
 {
     public class Vehicle : IComparable
     {
-        public string make { get; set; }
-        public int cost{ get; set; }
-        public string model { get; set; }
+        public string Make { get; set; }
+        public int Cost{ get; set; }
+        public string Model { get; set; }
 
         public int CompareTo(object obj)
         {
             Vehicle other = (Vehicle)obj;
-            if (this.cost < other.cost)
+            if (this.Cost < other.Cost)
             {
                 return 1;
             }
-            else if (this.cost > other.cost)
+            else if (this.Cost > other.Cost)
             {
                 return -1;
             }
@@ -28,32 +25,32 @@ namespace Assignment12
                 return 0;
         }
 
-        public Vehicle()
+        public Vehicle(string make,string model,int cost)
         {
-            make = "none";
-            cost = 0000;
-            model = "none";
+            Make = make;
+            Cost = cost;
+            Model = model;
         }
         public override string ToString()
        {
-           return "menufacturer=" + make + "  " + "model_no=" + model + " " + "cost=" + cost;
+           return "menufacturer=" + Make + "  " + "model_no=" + Model + " " + "cost=" + Cost;
         }
 
     }
     public class VehicleCollection : IEnumerable
     {
         List<Vehicle> bike = new List<Vehicle>();
-        public void data()
+        public void Data()
         {
-            bike.Add(new Vehicle() { make = "mahindra", model = "Centuro 4567", cost = 56200 });
+            bike.Add(new Vehicle("mahindra", "Centuro 4567", 56200));
 
-            bike.Add(new Vehicle() { make = "toyota", model = "DC323", cost = 82200 });
+            bike.Add(new Vehicle("toyota", "DC323", 82200)); 
 
-            bike.Add(new Vehicle() { make = "honda", model = "GHT678", cost = 65200 });
+            bike.Add(new Vehicle("honda", "GHT678", 65200));
 
-            bike.Add(new Vehicle() { make = "hero", model = "HL124", cost = 95621 });
+            bike.Add(new Vehicle("hero", "HL124", 95621));
 
-            bike.Add(new Vehicle() { make = "bajaj", model = "AQ5631", cost = 45213 });
+            bike.Add(new Vehicle("bajaj", "AQ5631", 45213));
 
             bike.Sort();
         }
@@ -70,7 +67,7 @@ namespace Assignment12
         static void Main(string[] args)
         {
             VehicleCollection obj = new VehicleCollection();
-            obj.data();
+            obj.Data();
                         
             foreach (var var in obj)
             {
